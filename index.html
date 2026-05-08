@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kuku! 🍍🧁🦋</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="butterfly-container" id="butterfly-box"></div>
+
+    <div class="container">
+        <h1 class="title">Happy Birthday, My Kukuu!</h1>
+        <div class="subtitle">Pineapples, Muffins, Chess and Ig I can add my name too in this list now👉👈</div>
+
+        <div class="game-section">
+            <h2>Chess puzzle challenge</h2>
+            <p id="game-message">Help the knight reach the glowing square in 3 moves.</p>
+            <button id="start-game">Start puzzle</button>
+            <div id="game-board" class="hidden"></div>
+        </div>
+
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <div class="pdf-header">
+                        <a id="download-pdf" href="static/assets/letter.pdf" download class="download-btn">⬇ Download PDF</a>
+                    </div>
+                    <div class="pdf-container">
+                        <!-- Replace 'letter.pdf' with your actual file name -->
+                        <iframe src="static/assets/letter.pdf#toolbar=0" type="application/pdf"></iframe>
+                    </div>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instruction">Tap the envelope to open your letter</div>
+
+        <div class="decorations">
+            <span class="emoji">🍍</span>
+            <span class="emoji">🧁</span>
+            <span class="emoji">🦋</span>
+            <span class="emoji">🧁</span>
+            <span class="emoji">🍍</span>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
